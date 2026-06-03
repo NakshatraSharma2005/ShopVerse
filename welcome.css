@@ -1,0 +1,422 @@
+/* Nav-bar css */
+
+.nav-bar {
+    height: 80px;
+    font-family: Montserrat;
+    background-color: rgb(12, 17, 30);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(235, 235, 235);
+    position: relative;
+}
+.nav-logo {
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background-image: url(image/ShopVerse-logo.png);
+    height: 70px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*search bar*/
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.nav-all {
+    height: 35px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.nav-search-bar {
+    height: 30px;
+    width: 400px;
+}
+.search-icon {
+    height: 35px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 133, 36);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.border {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+}
+.border:hover {
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.message-greet{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    text-align: center;
+    padding-right: 50px;
+}
+
+
+/*nav-contents*/
+.nav-contents {
+    margin-top: 40px;
+    display: flex;
+    height: 25px;
+    width: 800px;
+    margin-left: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 600;
+}
+.log-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 65px;
+    background-color: rgb(20, 25, 35);
+}
+.log-out button{
+    background-color: rgb(20, 25, 35);
+    color: white;
+}
+.cart {
+    height: 45px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cart i {
+    font-size: 30px;
+}
+.select-language {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-language select {
+    background-color: rgb(20, 25, 35);
+    color: white;
+}
+
+.select-language select option {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+/*nav panel*/
+.nav-panel{
+    height: 45px;
+    width: 100%;
+    background-image: linear-gradient(to left, #1f1f1f, #f5f5f5);
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid grey;
+}
+.nav-panel-content{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+
+
+/* content css */
+* {
+    margin: 0px;
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+/*hero section*/
+.hero-section {
+    height: 1000px;
+    width: 100%;
+    background-image: url(image/ShopVerse-hero-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*feature highlights*/
+.feature-highlights {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+.fast-delivery {
+    height: 260px;
+    width: 260px;
+    background-color: #dcdcdc;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.secure-payments {
+    height: 260px;
+    width: 260px;
+    background-color: #dcdcdc;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.customer-support {
+    height: 260px;
+    width: 260px;
+    background-color: #dcdcdc;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+.easy-returns {
+    height: 260px;
+    width: 260px;
+    background-color: #dcdcdc;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.blank-line {
+    width: 100%;
+    height: 10px;
+    background-color: RGB(238, 239, 241);
+}
+/*shop content*/
+.shop-by-category {
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.shop-category {
+    font-size: 20px;
+}
+
+/*men*/
+.shop-sub-category {
+    height: 350px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.shop-sub-category-text {
+    height: 100px;
+    width: 100px;
+}
+.shop-sub-category-shoping-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.shop-sub-category-shoping-content a {
+    padding-left: 30px;
+}
+.shop-sub-category-shoping-content p {
+    padding-left: 30px;
+}
+.shop-sub-category-shoping-content img {
+    height: 200px;
+    width: 200px;
+}
+
+/*deal of the day*/
+.deal-of-the-day {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.deal-text {
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timer {
+    height: 45px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(30, 35, 45);
+    padding: 10px 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.timer-num {
+    color: rgb(240, 133, 36);
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.timer-text {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-now:hover {
+    border: 2.5px solid black;
+}
+
+.deal {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.deal div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal img {
+    height: 200px;
+    width: 200px;
+}
+
+.deal button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* reviews section */
+.review-quote {
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0c111e;
+    text-align: center;
+}
+.review-quote h1 {
+    text-decoration: underline;
+}
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+}
+.box h2 {
+    font-style: italic;
+}
+
+
+
+
+/* footer css */
+/* footer */
+.footer {
+    background-color: rgb(12, 17, 30);
+    color: #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.8;
+}
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.feedback {
+    height: 100px;
+    width: 900px;
+    resize: none;
+}
+.follow-us {
+    padding-top: 120px;
+}
+.follow-us span:hover {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.bottom-section {
+    padding-top: 20px;
+}

@@ -1,0 +1,203 @@
+
+.sign-up-slider {
+    height: 100vh;
+    width: 70%;
+    background-color: black;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    overflow: hidden;
+    position: relative;
+    transition: background-image 1s ease-in-out;
+}
+
+.sign-up-input {
+    height: 100vh;
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: white;
+}
+
+.sign-up-logo{ 
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-logo-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sign-up-input-box {
+    height: 570px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #0D121F;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border: 1px solid grey;
+    flex-direction: column;
+}
+
+.sign-up {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;    
+    /* background-color: pink; */
+    background-color: #0D121F;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.sign-up-heading h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.blank-line {
+    width: 3px;
+    height: 100%;
+    background-color: RGB(238, 239, 241);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group p {
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 25vh;
+    padding: 4px;
+    padding-right: 35px;
+
+}
+.password-field{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.password-field input{
+    flex: 1;
+    padding-right: 35px;
+}
+.password-icon{
+    position: absolute;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.password-icon:hover{
+    color: grey;
+}
+
+
+.sign-up-button {
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.sign-up-button button {
+    height: 30px;
+    width: auto;
+    background-color: rgb(240, 133, 36);
+    color: white;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    
+    box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+.sign-up-already-have-account {
+  font-size: 0.9rem;          
+  color: #bfbfbf;             
+  text-align: center;
+  width: 100%;
+}
+
+.sign-up-already-have-account a {
+  color: rgb(240,133,36);   
+  text-decoration: none;
+  font-weight: 700;
+  padding-left: 6px;
+}
+
+.sign-up-already-have-account a:focus,
+.sign-up-already-have-account a:hover {
+  text-decoration: underline;
+  outline: none;
+}
+
+
+
+/* .logIn {
+    background-color: fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    width: 700px;
+    height: 400px;
+    background: #171a22;
+    border-radius: 10px;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-group input{
+    
+} */
